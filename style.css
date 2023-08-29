@@ -1,3 +1,7 @@
-h1{
-   color: blue; 
+.nav-link{
+    text-decoration: none;
+  color:rgb(255, 89, 0) ;
+}
+.container-fluid{
+    background-color: rgb(4, 219, 252);
 }
