@@ -16,15 +16,16 @@
    <!-- need to add css file -->    
     <link rel="stylesheet" href="style.css">
 
-
+    
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand justify-content-end fixed-top">
+    <header id="header" class="sticky-top" >
+      <nav  class="navbar navbar-expand bg-black justify-content-end">
             <!--<img src="#" style="width:40px;" class="rounded-pill">-->
             <ul class="hi navbar-nav">
               <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#getintouch"></a></li>
               <li class="nav-item"><a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
@@ -41,7 +42,7 @@
           <div class="content col-4">
             <h2>Hi There</h2>
             <h2> I'm Naveen R</h2>
-            <p>I'm an IT student at <strong>Park college of Engineering and Technology</strong><br>Coimbatore,India</p>
+            <p>I'm an IT student at <strong>Park college of Engineering and Technology</strong><br>Coimbatore,India.</p>
             <!--<button class="btn"><p>Download Resume</p></button>
             <button class="btn"><p>Stay in Touch</p></button>-->
           </div>
@@ -51,13 +52,55 @@
       </div>
      <!-- <p>I'm a Front end Developer <br>I'm currntly focusing on full stack Development <br>i'm an Software Engineer </p>
        above should be in typing manner-->
-     
     </div>
 
     <!--Main Section-->
-    <main>
-      <div id="about">
+    <main id="main">
+
+      <!--About Section-->
+      <div id="about"><br><br><br>
+        <div class="container">
+          <div class="row">
+            <div class="first col-4">
+                <img src="Profile-picturejpg" class="img rounded-top rounded-bottom" style="width: 200px;"><br><br>
+              <p> Programming Skills </p>
+              <label for="skill">Html 95%</label><br>
+              <progress id="skill" value="95" max="100" style="width: 300px;"></progress>
+              <br>
+              <label for="skill">Css 70%</label><br>
+              <progress id="skill" value="70" max="100" style="width: 300px;"></progress>
+              <br>
+              <label for="skill">Java script 35%</label><br>
+              <progress id="skill" value="35" max="100" style="width: 300px;"></progress>
+              <br>
+              <label for="skill">python 45%</label><br>
+              <progress id="skill" value="45" max="100" style="width: 300px;"></progress>
+              <br>
+              <label for="skill">php 35%</label><br>
+              <progress id="skill" value="35" max="100" style="width: 300px;"></progress>
+            </div>
+            <div class="second col-7">
+              <h1>About me</h1>
+              <p style="font-size: larger;">I am a Information Technology student at Park College of Engineering and Technology, Coimbatore.
+                My interests include web development, mobile application Development.
+                <br> I am well good in a part of WEB dEVELOPMENT called Front end but i need to focus on the backend as well
+                <br> And I am working on the project called ...................................... for the ....................................
+                <br> I have completed my SSLC with 90.4% And my HSC with 74%
+                <br> My native is SALEM,Tamil Nadu
+              
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <!--get in touch section-->
+      <div id="getintouch">
+
+      </div>
+      
+      
+      <!-- Contact section -->
       <div id="contact">
       </div>
     </main>   
